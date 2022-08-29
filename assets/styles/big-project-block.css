@@ -1,0 +1,15 @@
+.big-project-img-section {
+  background: var(--secondary-bg-color);
+  padding-top: 30px;
+}
+
+.big-project-img-wrapper {
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width:992px) {
+  .big-project-img-wrapper {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+.how-i-work {
+  text-align: center;
+  background: var(--light-gray-bg-color);
+  padding: 0 10px;
+}
+
+.heading-margin {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.how-i-work-article {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width:992px) {
+  .how-i-work-heading-margin {
+    margin: 10px;
+  }
+}

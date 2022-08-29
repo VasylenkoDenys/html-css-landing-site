@@ -1,0 +1,21 @@
+.many-projects {
+  background: var(--accent-color);
+  color: var(--btn-text-color);
+}
+
+.project-padding {
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.project-content {
+  padding: 10px;
+}
+
+@media screen and (max-width:992px) {
+  .project-padding {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,15 @@
+.code-img-section {
+  background: var(--light-gray-bg-color);
+  padding-bottom: 100px;
+}
+
+.code-img-wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:992px) {
+  .code-img-section {
+    padding-bottom: 20px;
+  }
+}

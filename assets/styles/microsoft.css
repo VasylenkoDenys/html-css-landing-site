@@ -1,0 +1,15 @@
+.microsoft {
+  background: var(--secondary-bg-color);
+}
+
+.microsoft-center {
+  width: 255px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width:992px) {
+  .microsoft-center {
+    margin: 0 auto;
+  }
+}

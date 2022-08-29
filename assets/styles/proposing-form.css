@@ -1,0 +1,23 @@
+.propose-form-dection {
+  text-align: center;
+  background: var(--light-gray-bg-color);
+}
+
+.input-style {
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.textarea-style {
+  font-family: inherit;
+  resize: none;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.send-btn {
+  width: 190px;
+  padding: 20px;
+  margin-bottom: 100px;
+}

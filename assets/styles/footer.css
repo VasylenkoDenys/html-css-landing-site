@@ -1,0 +1,29 @@
+.footer {
+  background: var(--accent-color);
+  color: var(--btn-text-color);
+  padding: 50px;
+}
+
+.footer-heading {
+  margin-bottom: 20px;
+}
+
+.facebook-icon {
+  width: 45px;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:992px) {
+  .footer {
+    text-align: center;
+    padding: 30px;
+  }
+}
