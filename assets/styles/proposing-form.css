@@ -1,12 +1,12 @@
-.propose-form-dection {
-  text-align: center;
+.propose-form-style {
   background: var(--light-gray-bg-color);
 }
 
 .input-style {
   padding: 20px;
   margin-bottom: 30px;
-  margin-right: 20px;
+  width: 100%;
+  min-height: 50px;
 }
 
 .textarea-style {
@@ -14,10 +14,18 @@
   resize: none;
   padding: 20px;
   margin-bottom: 50px;
+  width: 100%;
+  height: 175px;
 }
 
 .send-btn {
   width: 190px;
   padding: 20px;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width:440px) {
+  .send-btn {
+    margin-bottom: 20px;;  
+  }
 }

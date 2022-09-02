@@ -13,17 +13,23 @@
 }
 
 .footer-content {
+  max-width: 250px;
   margin-bottom: 20px;
 }
 
 .icons {
-  display: flex;
-  justify-content: space-between;
+  max-width: 175px;
+  align-items: center;
 }
 
 @media screen and (max-width:992px) {
   .footer {
-    text-align: center;
     padding: 30px;
+  }
+  .footer-content {
+    margin: 20px auto;
+  }
+  .icons {
+    margin: 0 auto;
   }
 }
