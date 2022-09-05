@@ -3,35 +3,42 @@
   padding: 20px;
 }
 
+
+
+/* в итоге дал одинаковые св-ва т.к. картинка при уменьшении становилась меньше блока "Мои навыки" */
+.skills-article,
+.face-img-wrapper {
+  padding: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .my-skills-margins {
-  margin-top: 200px;
   margin-bottom: 50px;
 }
 
 .loading-bg {
   background: var(--progress-bg-color);
-  width: 90%;
   height: 4px;
   margin-top: 20px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .loading-bg::after {
   display: block;
-  content: '';
+  content: "";
   background: var(--accent-color);
-  width: 70%;
   height: 4px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  right: 30%;
+  left: 0;
+  position: absolute;
 }
 
-.face-img-wrapper {
-  margin: 100px;
-  width: 100%;
-}
-
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .face-img-wrapper {
     margin: 0 auto;
   }

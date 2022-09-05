@@ -1,11 +1,10 @@
 .microsoft {
-  background: var(--secondary-bg-color);
+  padding: 50px 0;
 }
 
 .microsoft-center {
-  width: 255px;
   padding: 20px;
-  margin-bottom: 100px;
+  max-width: 255px; /*добавил все же ширину чтоб на маленьких экранах не раздувало*/
 }
 
 @media screen and (max-width:992px) {

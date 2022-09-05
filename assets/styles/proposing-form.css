@@ -1,5 +1,11 @@
-.propose-form-style {
+.propose-section-style {
+  text-align: center;
   background: var(--light-gray-bg-color);
+  padding: 50px;
+}
+
+.propose-form-style {
+  margin-top: 50px;
 }
 
 .input-style {
@@ -15,17 +21,15 @@
   padding: 20px;
   margin-bottom: 50px;
   width: 100%;
-  height: 175px;
+  min-height: 175px;
 }
 
 .send-btn {
   width: 190px;
-  padding: 20px;
-  margin-bottom: 100px;
 }
 
-@media screen and (max-width:440px) {
-  .send-btn {
-    margin-bottom: 20px;;  
+@media screen and (max-width: 576px) {
+  .heading-margin {
+    margin-top: 0;
   }
 }
