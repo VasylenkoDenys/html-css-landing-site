@@ -1,7 +1,11 @@
 .propose-section-style {
   text-align: center;
   background: var(--light-gray-bg-color);
-  padding: 50px;
+  padding: 100px 50px;
+}
+
+.propose-heading {
+  margin-bottom: 30px;
 }
 
 .propose-form-style {
